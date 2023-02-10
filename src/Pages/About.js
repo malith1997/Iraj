@@ -1,11 +1,15 @@
 import React from 'react'
+import AboutDis from '../componets/AboutDis';
 
 function About() {
   return (
-    <div>
-        <h1>this is about page</h1>
+    <React.Fragment>
+
+      <AboutDis />
+     
+     
       
-    </div>
+    </React.Fragment>
   )
 }
 

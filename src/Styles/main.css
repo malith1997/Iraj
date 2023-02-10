@@ -135,6 +135,26 @@ h1{
     font-size: 40px;
    
 }
+.topic7{
+
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 80px;
+ 
+}
+
+.paragrhap{
+  text-align: center;
+  color: #a19e9e;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
 
 .BtnCard {
     cursor: pointer;
@@ -420,6 +440,27 @@ h1{
 
         padding-left: 0px ;
         padding-right: 0px;
+      }
+
+
+      .topic7{
+
+        text-align: center;
+        color: #ffffff;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        font-size: 80px;
+       
+      }
+      
+      .paragrhap{
+        text-align: center;
+        color: #a19e9e;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        padding: 10px;
+        
       }
     
 
