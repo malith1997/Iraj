@@ -83,6 +83,15 @@ h1{
     margin-left: 0px;
     
 }
+
+.img4{
+  width: 35%;
+  padding-bottom: 70px;
+  margin-top: -1000px;
+  margin-left:200px;
+  
+}
+
 .topic1{
     color: #ffffff;
     margin-top: -800px;
@@ -145,6 +154,16 @@ h1{
  
 }
 
+.topic8{
+
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 40px;
+ 
+}
+
 .paragrhap{
   text-align: center;
   color: #a19e9e;
@@ -155,6 +174,19 @@ h1{
   padding-left: 300px;
   padding-right: 300px;
 }
+
+.paragrhap2{
+ 
+  color: #888686;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding: 0px;
+  padding-left: 1100px;
+  padding-right: 300px;
+  
+}
+
 
 .BtnCard {
     cursor: pointer;
@@ -435,6 +467,8 @@ h1{
         display: table;
         clear: both;
       }
+
+
 
       .container2{
 
