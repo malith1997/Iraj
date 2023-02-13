@@ -7,7 +7,7 @@ function About() {
     <React.Fragment>
 
       <AboutDis />
-      {/* <Professional /> */}
+      <Professional />
      
      
       

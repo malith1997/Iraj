@@ -30,8 +30,7 @@ function Home() {
       <Topic3 />
       {/* <InstagramEmbed1 /> */}
 
-      <AboutDis />
-      <Professional />
+      
      
       
     </React.Fragment>
