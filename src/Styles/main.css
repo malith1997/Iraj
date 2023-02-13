@@ -92,6 +92,14 @@ h1{
   
 }
 
+.img5{
+  width: 24%;
+  padding-bottom: 70px;
+  margin-top: -650px;
+  margin-left:1200px;
+  
+}
+
 .topic1{
     color: #ffffff;
     margin-top: -800px;
@@ -184,6 +192,31 @@ h1{
   padding: 0px;
   padding-left: 1100px;
   padding-right: 300px;
+  
+}
+
+.paragrhap3{
+ 
+  color: #888686;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding: 0px;
+  padding-left: 200px;
+  padding-right: 1100px;
+  
+}
+
+
+.paragrhap4{
+ 
+  color: #888686;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding: 0px;
+  
   
 }
 

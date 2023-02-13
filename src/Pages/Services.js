@@ -1,9 +1,22 @@
 import React from 'react'
+import Nav from '../componets/Nav';
 
 function Services() {
   return (
     <div>
-      <h1>this is services page</h1>
+
+     <React.Fragment>
+
+     <Nav />
+
+      <h2 className="topic8">“Great hair doesn’t happen <br></br>
+      by chance, it happens by<br></br>
+      appointment“</h2>
+
+
+
+
+     </React.Fragment>
     </div>
   )
 }
