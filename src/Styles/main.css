@@ -92,6 +92,14 @@ h1{
   
 }
 
+.img5{
+  width: 24%;
+  padding-bottom: 70px;
+  margin-top: -650px;
+  margin-left:1200px;
+  
+}
+
 .topic1{
     color: #ffffff;
     margin-top: -800px;
@@ -157,9 +165,29 @@ h1{
 .topic8{
 
   text-align: center;
-  color: #ffffff;
+  color: #afaeae;
   margin-top: 100px;
   margin-bottom: 0px;
+  font-size: 40px;
+ 
+}
+
+.topic9{
+
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: -40px;
+  font-size: 30px;
+ 
+}
+
+.topic10{
+
+  text-align: center;
+  color: hsl(0, 1%, 65%);
+  margin-top: 600px;
+  margin-bottom: 50px;
   font-size: 40px;
  
 }
@@ -185,6 +213,62 @@ h1{
   padding-left: 1100px;
   padding-right: 300px;
   
+}
+
+.paragrhap3{
+ 
+  color: #888686;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding: 0px;
+  padding-left: 200px;
+  padding-right: 1100px;
+  
+}
+
+
+.paragrhap4{
+ 
+  color: #888686;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding: 0px;
+  
+  
+}
+
+.paragrhap5{
+ 
+  color: #888686;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding: 0px;
+  
+  
+}
+
+.grid1{
+  padding-top: 5%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+
+.grid2{
+  padding-top: 25%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.grid3{
+  padding-top: 22%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 
@@ -235,6 +319,26 @@ h1{
 
   * {
     box-sizing: border-box;
+  }
+
+
+  .BtnCard2 {
+    cursor: pointer;
+    top: 15px;
+    background: #fcfafa;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+.BtnCard2:hover {
+    color: var(--secondaryColor);
+    transform: scale(1.09);
   }
   
   /* Create three equal columns that floats next to each other */
