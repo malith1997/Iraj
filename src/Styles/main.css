@@ -192,6 +192,40 @@ h1{
  
 }
 
+
+.form1{
+
+  width: 50%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.form2{
+
+  width: 50%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+  margin-left: 500px;
+  margin-top: 0px;
+}
+.form3{
+
+  width: 50%;
+  border-radius: 5px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+  margin-left: 500px;
+  margin-top: 35px;
+}
+
 .paragrhap{
   text-align: center;
   color: #a19e9e;
@@ -248,7 +282,17 @@ h1{
   margin-bottom: 5px;
   font-size: 20px;
   padding: 0px;
-  
+}
+
+.paragrhap6{
+ 
+  color: #888686;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding: 0px;
+  padding-bottom: 10px;
   
 }
 
@@ -267,6 +311,12 @@ h1{
 
 .grid3{
   padding-top: 22%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.grid4{
+  padding-top: 0%;
   padding-left: 12%;
   padding-right: 12%;
 }
@@ -339,6 +389,26 @@ h1{
 .BtnCard2:hover {
     color: var(--secondaryColor);
     transform: scale(1.09);
+  }
+
+  .BtnCard3 {
+    cursor: pointer;
+    top: 15px;
+    background: #5e5b5b;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+.BtnCard3:hover {
+    color: var(--secondaryColor);
+    transform: scale(1.09);
+    background-color: #ffffff;
   }
   
   /* Create three equal columns that floats next to each other */
