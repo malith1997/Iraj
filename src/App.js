@@ -13,6 +13,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Services from './Pages/Services';
 import Nav from './componets/Nav'
+import AboutDis from './componets/AboutDis';
 
 
 
@@ -49,20 +50,27 @@ function App() {
 
       <Router>
 
-        <Home />
+        
       
 
       <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/About" component={About} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/Services" component={Services} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Services" element={<Services />} />
        
        
       </Routes>
     </Router>
+
+
+    // <Routes>
+
+    //   <Route path="/About" element={<About />} />
+
+    // </Routes>
     
-   
+ 
     
   );
 }
