@@ -21,8 +21,8 @@ function Cards2() {
         <div>
 
             <section>
-            <SimpleGrid className="grid1" minChildWidth='120px' spacing='40px'>
-            <Box  height='80px'>
+            <SimpleGrid className="grid1" minChildWidth='220px' spacing='40px'>
+            <Box className="box1" height='80px'>
 
             <Image className="img1" src={rounded1}  />
             <h2 className="topic9">Lorem ipsum</h2>
@@ -31,7 +31,7 @@ function Cards2() {
 
             </Box>
 
-            <Box  height='80px'>
+            <Box className="box1" height='80px'>
 
             <Image className="img1" src={rounded2}  />
 
@@ -41,7 +41,7 @@ function Cards2() {
 
             </Box>
 
-            <Box  height='80px'>
+            <Box className="box1" height='80px'>
 
             <Image className="img1" src={rounded3}  />
 
@@ -51,7 +51,7 @@ function Cards2() {
 
             </Box>
 
-            <Box height='80px'>
+            <Box className="box1" height='80px'>
 
             <Image className="img1" src={rounded4}  />
 
@@ -68,8 +68,8 @@ function Cards2() {
 
             <section>
 
-            <SimpleGrid className="grid2" minChildWidth='120px' spacing='40px'>
-            <Box  height='80px'>
+            <SimpleGrid className="grid2" minChildWidth='220px' spacing='40px'>
+            <Box className="box2" height='80px'>
 
             <Image className="img1" src={rounded5}  />
             <h2 className="topic9">Lorem ipsum</h2>
@@ -77,7 +77,7 @@ function Cards2() {
 
             </Box>
 
-            <Box  height='80px'>
+            <Box className="box2" height='80px'>
 
             <Image className="img1" src={rounded6}  />
 
@@ -86,7 +86,7 @@ function Cards2() {
 
             </Box>
 
-            <Box  height='80px'>
+            <Box className="box2"  height='80px'>
 
             <Image className="img1" src={rounded7}  />
 
@@ -95,7 +95,7 @@ function Cards2() {
 
             </Box>
 
-            <Box height='80px'>
+            <Box className="box2"  height='80px'>
 
             <Image className="img1" src={rounded8}  />
 
@@ -111,18 +111,18 @@ function Cards2() {
 
 
             <section>
-            <SimpleGrid className="grid3" columns={[3]} spacing='40px'>
-            <Box  height='80px'>
+            <SimpleGrid className="grid3" minChildWidth='220px' columns={[3]} spacing='40px'>
+            <Box className="box3" height='80px'>
 
             <Image className="img1" src={big1}  />
             <h2 className="topic9">Lorem ipsum</h2>
             </Box>
-            <Box  height='80px'>
+            <Box className="box3" height='80px'>
 
             <Image className="img1" src={big2}  />
             <h2 className="topic9">Lorem ipsum</h2>
             </Box>
-            <Box  height='80px'>
+            <Box className="box4" height='80px'>
 
             <Image className="img1" src={big3}  />
             <h2 className="topic9">Lorem ipsum</h2>
