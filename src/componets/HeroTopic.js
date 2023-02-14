@@ -5,12 +5,13 @@ import { ButtonGroup,Divider,Stack,Image,Heading,Text,Button,Card, CardHeader, C
 function Topic() {
     return(   
         
-        <div><section>
+        <div>
+            <section className="mobileHero">
             <h2 className="topic1">Hi,I'm Iraj</h2>
-            <h6 className="topic2">A tenacious,creative and energetic hairstylist who <br></br> enjoyes creating worksof art with each haircut.</h6>
-            <Button className="BtnCard">
-            <a className="textcolor">Work With Me</a>
-          </Button>
+            <h6 className="topic2">A tenacious,creative and energetic hairstylist who <br></br> enjoyes creating worksof art with each haircut.</h6><br></br><br></br>
+            <a className="BtnCard">
+            Work With Me
+          </a>
           </section>
         </div>
 

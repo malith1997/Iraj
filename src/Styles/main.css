@@ -85,10 +85,16 @@ h1{
 }
 
 .img4{
-  width: 35%;
-  padding-bottom: 70px;
-  margin-top: -1000px;
-  margin-left:200px;
+  width: 90%;
+  margin-top: -210px;
+ 
+  
+}
+
+.img20{
+  width: 90%;
+  margin-top: -210px;
+ 
   
 }
 
@@ -192,6 +198,16 @@ h1{
  
 }
 
+.topic11{
+
+  text-align: center;
+  color: #afaeae;
+  margin-top: 400px;
+  margin-bottom: -150px;
+  font-size: 40px;
+ 
+}
+
 
 .form1{
 
@@ -237,27 +253,41 @@ h1{
   padding-right: 300px;
 }
 
+.paragrhap0{
+ 
+  color: #888686;
+  font-size: 20px;
+  margin-top: -200px;
+  
+}
+
+.paragrhap11{
+ 
+  color: #888686;
+  font-size: 20px;
+  margin-top: -200px;
+  
+}
+/* .paragrhap1{
+ 
+  color: #888686;
+  font-size: 20px;
+  margin-top: -180px;
+  
+}
 .paragrhap2{
  
   color: #888686;
-  margin-top: 35px;
-  margin-bottom: 5px;
   font-size: 20px;
-  padding: 0px;
-  padding-left: 1100px;
-  padding-right: 300px;
+  margin-top: -190px;
   
 }
 
 .paragrhap3{
  
   color: #888686;
-  margin-top: 35px;
-  margin-bottom: 5px;
   font-size: 20px;
-  padding: 0px;
-  padding-left: 200px;
-  padding-right: 1100px;
+  margin-top: -170px;
   
 }
 
@@ -265,14 +295,12 @@ h1{
 .paragrhap4{
  
   color: #888686;
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom: 5px;
   font-size: 20px;
-  padding: 0px;
+  margin-top: -160px;
   
   
-}
+  
+} */
 
 .paragrhap5{
  
@@ -310,7 +338,7 @@ h1{
 }
 
 .grid3{
-  padding-top: 22%;
+  padding-top: 15%;
   padding-left: 12%;
   padding-right: 12%;
 }
@@ -321,23 +349,33 @@ h1{
   padding-right: 12%;
 }
 
+.grid5{
+  padding-top: 25%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+
 
 .BtnCard {
     cursor: pointer;
-    top: 15px;
-    background: #fcfafa;
+    background: #202020;
+    color: #ebe5e5;
+    border-radius: 5px;
     width: 200px;
     height: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    margin-left: 250PX;
-    margin-top: 20px;
+    margin-left: 253PX;
+    padding: 10px;
+    
+
+   
   }
 .BtnCard:hover {
-    color: var(--secondaryColor);
+    color: #000000;
     transform: scale(1.09);
+    background: #ffffff;
   }
 
   body{
@@ -357,7 +395,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-left: 1310PX;
+    margin-left: 1210PX;
     margin-top: 20px;
   }
 .BtnCard1:hover {
@@ -401,7 +439,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-left: 45%;
+    margin-left: 46%;
     margin-top: 20px;
     margin-bottom: 60px;
   }
@@ -477,6 +515,10 @@ h1{
     justify-content: center;
   }
 
+  .formset{
+    margin-left: -2%;
+  }
+
 
 
 
@@ -527,6 +569,7 @@ h1{
         background-color: var(--mainColor);
         transition: 1s;
         transform: translateY(-100vh);
+        
     }
 
     header .responsive_nav{
@@ -564,30 +607,39 @@ h1{
 
         color: #ffffff;
         margin-top: 10px;
+        margin-bottom: -25px;
         margin-left: 52px;
         font-size: 8px;
         align-items: center;
     }
 
-
+    .mobileHero{
+      margin-left: -25px;
+      margin-top: 25px;
+    }
 
     .BtnCard {
-        cursor: pointer;
-        top: 15px;
-        background: #fcfafa;
-        width: 100px;
-        height: 40px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        margin-left: 50PX;
-        margin-top: 20px;
-      }
-    .BtnCard:hover {
-        color: var(--secondaryColor);
-        transform: scale(1.09);
-      }
+      cursor: pointer;
+      background: #202020;
+      color: #ebe5e5;
+      border-radius: 5px;
+      width: 200px;
+      height: 50px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+      align-items: center;
+      margin-left: 50PX;
+      padding: 5px;
+      
+      
+  
+     
+    }
+  .BtnCard:hover {
+      color: #000000;
+      transform: scale(1.09);
+      background: #ffffff;
+    }
+  
 
 
 
@@ -670,7 +722,162 @@ h1{
         padding: 10px;
         
       }
-    
+
+
+      .grid1{
+        
+        padding: 15%;
+ 
+      }
+      
+      
+      .grid2{
+        padding: 15%;
+      }
+      
+      .grid3{
+        padding-top: 22%;
+        padding-left: 12%;
+        padding-right: 12%;
+      }
+      
+      .grid4{
+        padding-top: 0%;
+        padding-left: 12%;
+        padding-right: 12%;
+      }
+
+
+      .box1{
+        padding-top: 0%;
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-bottom: 130%;
+      }
+
+
+      .box2{
+        margin-top: -50px;
+        padding-top: 0%;
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-bottom: 100%;
+      }
+
+      .box3{
+        margin-top: -50px;
+        padding-bottom: 130%;
+      }
+
+      .box4{
+        margin-top: -50px;
+        padding-bottom: 130%;
+        margin-bottom: -100px;
+      }
+
+      .topic10{
+        margin-top: 100px;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .BtnCard2{
+        margin-left: 148px;
+      }
+
+      .BtnCard3{
+        margin-left: 120px;
+      }
+
+
+      .form1{
+
+        width: 90%;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        margin-left: 4%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+      .form2{
+      
+        width: 90%;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        margin-left: 4%;
+        margin-top: 0px;
+      }
+      .form3{
+      
+        width: 90%;
+        border-radius: 5px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        margin-left: 4%;
+        margin-top: 35px;
+      }
+
+
+      .topic11{
+
+        text-align: center;
+        color: #afaeae;
+        margin-top: 400px;
+        margin-bottom: -250px;
+        font-size: 40px;
+       
+      }
+
+      .box10{
+        margin-top: 500px;
+        padding-bottom: 10%;
+      }
+
+
+      .grid5{
+        width: 100%;
+      }
+
+
+      .grid3{
+        width: 100%;
+      }
+
+      
+      .paragrhap0{
+        text-align: center;
+        margin-top: -100px;
+      }
+
+      .paragrhap11{
+        text-align: center;
+        margin-top: 0px;
+      }
+      .img4{
+        margin-top: -10px;
+        margin-left: 12px;
+        
+      }
+
+      .img20{
+        margin-top: -600px;
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 100px;
+        
+        
+      }
+      
+      
+
+
+      
 
     body{
         background-color: #030303;

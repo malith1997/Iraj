@@ -32,7 +32,7 @@ function Contact() {
         <br></br>message with the form down below. Either way, I’ll be in touch shortly!</h6>
 
 
-        <section>
+        <section className='formset'>
 
         <FormControl >
         <Input className='form1' placeholder='Name' />
@@ -52,28 +52,27 @@ function Contact() {
         
         
 
-        </section>
-
-        <section>
+        
         <Button className="BtnCard3">
-            <a className="textcolor">Work With Me</a>
+            <a className="textcolor">Submit</a>
         </Button>
+       
         </section>
 
 
         <section>
-            <SimpleGrid className="grid4" columns={[3]} spacing='40px'>
-            <Box  height='80px'>
+            <SimpleGrid className="grid4" minChildWidth='220px' columns={[3]} spacing='40px'>
+            <Box className="box3" height='80px'>
 
             <Image className="img1" src={big1}  />
             <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>
             </Box>
-            <Box  height='80px'>
+            <Box className="box3"  height='80px'>
 
             <Image className="img1" src={big2}  />
             <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>
             </Box>
-            <Box  height='80px'>
+            <Box className="box3" height='80px'>
 
             <Image className="img1" src={big3}  />
             <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>
