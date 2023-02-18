@@ -162,9 +162,9 @@ h1{
 .imgBo{
 
   position: relative;
-  width: 800px;
+  width: 160%;
   width: calc(130% -80px);
-  height: 800px;
+  height: 160%;
   margin-top: 150px;
   margin-left: 100px;
   top: -100px;
