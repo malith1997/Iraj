@@ -1,12 +1,22 @@
 import "../Styles/main.css";
-import coco from "../Img/cover.svg";
-import { ButtonGroup,Divider,Stack,Image,Heading,Text,Button,Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react';
+import coco from "../Img/cover12.png";
+import Irajj from "../Img/iraj.png";
+import Round from "../Img/round.png";
+
+
+import { ButtonGroup,Divider,Stack,Image,Heading,Text,Button,Card, CardHeader, CardBody, CardFooter, Container } from '@chakra-ui/react';
 
 function Hero() {
     return(   
         
-        <div>
+        <div className='h-screen overflow-hidden relative'>
             <Image className="img1" src={coco} alt="coco" />
+            <div className="imgBox">
+            <Image className="imgBo" src={Irajj} alt="iraj" />
+            </div>
+            
+
+            
         </div>
 
         
