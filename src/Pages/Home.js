@@ -17,6 +17,9 @@ import Carousel from '../componets/Carousel';
 
 
 
+
+
+
 function Home() {
   return (
     <React.Fragment>
@@ -29,6 +32,9 @@ function Home() {
       <Topic2 />
       <Cards />
       <Topic3 />
+      
+      
+      
       {/* <Carousel /> */}
       {/* <InstagramEmbed1 /> */}
 
