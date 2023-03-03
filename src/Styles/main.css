@@ -106,15 +106,84 @@ h1{
   
 }
 
+
+.imgBox{
+ 
+  width: 24%;
+  margin-top: -55%;
+  margin-left: 42%;
+  margin-bottom: -40%;
+ 
+  
+}
+
+/* .imgBox5{
+  
+  position: relative;
+  width: calc(130% -80px);
+  height: 100px;
+  top: -100px;
+  right: 50px;
+  animation: animateUser 4s linear infinite;
+  
+
+} */
+
+@keyframes animateUser {
+
+  50%{
+    right: 30px;
+    top: -90px;
+  }
+  
+}
+
+.imgBox1{
+  margin-left: 500px;
+  width: 600px;
+  position: relative;
+  width: calc(130% -80px);
+  top: -100px;
+  right: 50px;
+  animation: animateUser 4s linear infinite;
+  
+
+}
+
+/* @keyframes animateUser {
+
+  50%{
+    right: 30px;
+    top: -90px;
+  }
+  
+} */
+
+.imgBo{
+
+  position: relative;
+  width: 160%;
+  width: calc(130% -80px);
+  height: 160%;
+  margin-top: 150px;
+  margin-left: 100px;
+  top: -100px;
+  right: 50px;
+  animation: animateUser 4s linear infinite;
+
+}
+
 .topic1{
     color: #ffffff;
-    margin-top: -800px;
+    margin-top: 150px;
     margin-left: 250px;
-    font-size: 80px;
+    font-size: 100px;
+
+    
 }
 .topic2{
     color: #ffffff;
-    margin-top: 10px;
+    
     margin-left: 255px;
     font-size: 20px;
 }
@@ -124,7 +193,7 @@ h1{
     justify-items: center;
     text-align: center;
     color: #ffffff;
-    margin-top: 650px;
+    margin-top: 450px;
     margin-left: 750px;
     font-size: 40px;
 }
@@ -218,7 +287,7 @@ h1{
   padding:15px;
   margin-left: 500px;
   margin-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .form2{
 
@@ -378,6 +447,28 @@ h1{
     background: #ffffff;
   }
 
+
+
+  .BtnCard5 {
+    cursor: pointer;
+    background: #202020;
+    color: #ebe5e5;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    align-items: center;
+    margin-left: 1250PX;
+    padding: 10px;
+    
+
+   
+  }
+.BtnCard5:hover {
+    color: #000000;
+    transform: scale(1.09);
+    background: #ffffff;
+  }
   body{
     background-color: #000000;
     
@@ -434,7 +525,7 @@ h1{
     top: 15px;
     background: #5e5b5b;
     width: 200px;
-    height: 50px;
+    height: 30px;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3);
     flex-direction: column;
     align-items: center;
@@ -599,7 +690,7 @@ h1{
     .topic1{
         justify-content: center;
         color: #ebe5e5;
-        margin-top: -240px;
+        margin-top: -290px;
         margin-left: 50px;
         font-size: 40px;
     }
@@ -663,9 +754,9 @@ h1{
     }
 
     .img2{
-        width: 35%;
-        margin-left: 160px;
-        margin-top: -40px;
+        width: 60%;
+        margin-left: 85px;
+        margin-top: 30px;
        
         
     }
@@ -874,8 +965,17 @@ h1{
         
       }
       
-      
+      .imgBo{
+        width: 200px;
+        height: 200px;
+        margin-top: 100px;
+        margin-left: 60px;
+       
+      }
 
+      .BtnCard5{
+        margin-left: 172px;
+      }
 
       
 

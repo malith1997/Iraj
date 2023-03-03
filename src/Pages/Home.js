@@ -13,6 +13,10 @@ import { Link } from "react-router-dom";
 import Professional from '../componets/professional';
 // import InstagramEmbed1 from './componets/insta';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import Carousel from '../componets/Carousel';
+
+
+
 
 
 
@@ -28,6 +32,10 @@ function Home() {
       <Topic2 />
       <Cards />
       <Topic3 />
+      
+      
+      
+      {/* <Carousel /> */}
       {/* <InstagramEmbed1 /> */}
 
       

@@ -16,9 +16,13 @@ import big1 from "../Img/big1.png";
 import big2 from "../Img/big2.png";
 import big3 from "../Img/big3.png";
 
+import ContactUs from '../componets/sendemail'
+
 
 function Contact() {
+
   return (
+    
     <div>
         
 
@@ -31,33 +35,8 @@ function Contact() {
         <h6 className='paragrhap4'>Well hello there, wonderful, fabulous you! If you’d like to get in touch with me, please feel free to give me a call at (555) 555-5555, or send a 
         <br></br>message with the form down below. Either way, I’ll be in touch shortly!</h6>
 
-
-        <section className='formset'>
-
-        <FormControl >
-        <Input className='form1' placeholder='Name' />
-        </FormControl>
-
-
-        <FormControl >
-        <FormLabel>Email address</FormLabel>
-        <Input className='form2' type='email' placeholder='Email' />
-        </FormControl>
-
-
-        <FormControl>
-        <Input className='form3' placeholder='Message' />
-        </FormControl>
-
-        
-        
-
-        
-        <Button className="BtnCard3">
-            <a className="textcolor">Submit</a>
-        </Button>
-       
-        </section>
+      
+        <ContactUs />
 
 
         <section>
@@ -89,7 +68,11 @@ function Contact() {
 
 
       </React.Fragment>
-      
+
+     
+
+  
+
     </div>
   )
 }
