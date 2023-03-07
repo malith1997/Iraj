@@ -17,6 +17,7 @@ import big2 from "../Img/big2.png";
 import big3 from "../Img/big3.png";
 
 import ContactUs from '../componets/sendemail'
+import Footer from '../componets/Footer';
 
 
 function Contact() {
@@ -65,15 +66,17 @@ function Contact() {
         
 
 
-
-
+        <section className='footer1'>
+        <Footer />
+        </section>
       </React.Fragment>
 
      
 
   
-
+    
     </div>
+    
   )
 }
 
