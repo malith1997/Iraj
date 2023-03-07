@@ -62,13 +62,16 @@ function Contact() {
         </section>
 
 
-
+       
         
 
 
         <section className='footer1'>
         <Footer />
         </section>
+
+
+
       </React.Fragment>
 
      

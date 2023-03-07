@@ -15,6 +15,7 @@ import Professional from '../componets/professional';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Carousel from '../componets/Carousel';
 import Footer from '../componets/Footer';
+import Instagram from '../componets/instagram';
 
 
 
@@ -34,6 +35,7 @@ function Home() {
       <Cards />
       <Topic3 />
       <Footer />
+      <Instagram />
       
       
       
