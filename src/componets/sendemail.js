@@ -1,5 +1,6 @@
 
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
+import Alert from './Alert';
 import emailjs from '@emailjs/browser';
 import {
     FormControl,
@@ -10,6 +11,12 @@ import {
 
 
 const ContactUs = () => {
+
+  const [showAlert, setShowAlert] = useState(false);
+  const handleClick = () => {
+    // Perform action here
+    <Alert type="success" message="Successfully sent!" />
+  }
     const form = useRef();
   
     const sendEmail = (e) => {
@@ -36,7 +43,9 @@ const ContactUs = () => {
         <input className='form2' type="email" name="user_email" placeholder='Email' />
         
         <textarea className='form3' name="message" placeholder='Message' />
-        <input className="BtnCard3" type="submit" value="Send" />
+        <input className="BtnCard3" type="submit" value="Send" onClick={handleClick} />
+        alert("This is an alert message!");
+       
       </form>
 
       </section>

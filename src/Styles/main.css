@@ -106,6 +106,13 @@ h1{
   
 }
 
+.img31{
+  width: 35%;
+  margin-top: -20px;
+  margin-left: 0px;
+  
+}
+
 
 .imgBox{
  
@@ -552,6 +559,20 @@ h1{
     margin-top: 200px;
 
   }
+
+
+  .column111 {
+    color: #ebe5e5;
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    height: 220px; /* Should be removed. Only for demonstration */
+    margin-top: 200px;
+
+
+  }
+
+ 
   
   /* Clear floats after the columns */
   .row:after {
@@ -598,6 +619,15 @@ h1{
     padding-right: 250px;
   }
 
+
+  .container22{
+
+    padding-left: 250px ;
+    padding-right: 250px;
+    margin-bottom: 500px;
+
+  }
+
   .instagram{
     width: 50%;
     height: 100%;
@@ -610,7 +640,110 @@ h1{
     margin-left: -2%;
   }
 
+  .footer {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+  }
 
+  .footer1 {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    padding: 20px;
+    margin-top: 550px;
+    text-align: center;
+   
+  }
+
+  .footer2 {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    padding: 20px;
+    margin-top: 500px;
+    text-align: center;
+  
+  }
+
+
+  .columnx {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+
+
+
+
+
+
+  
+
+  .InstagramPost {
+    background-color: #202020;
+    margin: 16px;
+    max-width: 500px;
+    
+  }
+  
+  .InstagramPost-header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .InstagramPost-avatar {
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .InstagramPost-username {
+    color: #ebe5e5;
+    font-weight: bold;
+  }
+  
+  .InstagramPost-image {
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .avatar1 {
+    cursor: pointer;
+    width: 10%;
+  }
+
+  .avatar2 {
+    cursor: pointer;
+    width: 8%;
+    margin-left: 10px;
+  }
+  .avatar3 {
+    cursor: pointer;
+    width: 8%;
+    margin-left: 10px;
+  }
+  .avatar4 {
+    cursor: pointer;
+    width: 8%;
+    margin-left: 10px;
+  }
+  
+  .InstagramPost-caption {
+    color: #ebe5e5;
+    padding: 16px;
+  }
+  
+  .InstagramPost-likes {
+    font-weight: bold;
+    color: #ebe5e5;
+    padding: 16px;
+  }
+  
+
+ 
 
 
 
@@ -980,9 +1113,140 @@ h1{
       
 
     body{
-        background-color: #030303;
+        background-color: #000000;
         
         
     }
 
+    .footer {
+      background-color: rgb(24, 24, 24);
+      color: white;
+      padding: 50px;
+      height: 1400px;
+      text-align: center;
+    }
+  
+    .footer1 {
+      background-color: rgb(24, 24, 24);
+      color: white;
+      padding: 0px;
+      margin-top: 50px;
+      height: 1400px;
+      text-align: center;
+    }
+
+    .footer2 {
+      background-color: rgb(24, 24, 24);
+      color: white;
+      padding: 0px;
+      margin-top: 300px;
+      height: 1400px;
+      text-align: center;
+    }
+  
+    .columnx {
+      float: left;
+      width: 100%;
+      padding: 0px;
+      height: 200px; /* Should be removed. Only for demonstration */
+    }
+
+    
+
+    .img31{
+      width: 20%;
+      margin-top: 350px;
+      margin-left: 0px;
+      
+    }
+
+
+
+
+
+    
+
+
+    .InstagramPost {
+      background-color: #292929;
+      margin: 16px;
+      max-width: 500px;
+      
+    }
+    
+    .InstagramPost-header {
+      display: flex;
+      align-items: center;
+      padding: 16px;
+    }
+    
+    .InstagramPost-avatar {
+      border-radius: 50%;
+      margin-right: 16px;
+    }
+    
+    .InstagramPost-username {
+      color: #ebe5e5;
+      font-weight: bold;
+    }
+    
+    .InstagramPost-image {
+      cursor: pointer;
+      width: 100%;
+    }
+  
+    .avatar1 {
+      cursor: pointer;
+      width: 10%;
+    }
+  
+    .avatar2 {
+      cursor: pointer;
+      width: 8%;
+      margin-left: 10px;
+    }
+    .avatar3 {
+      cursor: pointer;
+      width: 8%;
+      margin-left: 10px;
+    }
+    .avatar4 {
+      cursor: pointer;
+      width: 8%;
+      margin-left: 10px;
+    }
+    
+    .InstagramPost-caption {
+      color: #ebe5e5;
+      padding: 16px;
+    }
+    
+    .InstagramPost-likes {
+      font-weight: bold;
+      color: #ebe5e5;
+      padding: 16px;
+    }
+
+
+    .container22{
+
+      padding-left: 50px ;
+      padding-right: 50px;
+      margin-bottom: 100px;
+  
+    }
+
+    .column111 {
+      color: #ebe5e5;
+      float: left;
+      width: 100%;
+      padding: 0px;
+      height: 220px; /* Should be removed. Only for demonstration */
+      margin-top: 200px;
+      margin-bottom: 330px;
+  
+  
+    }
+  
+    
 }
