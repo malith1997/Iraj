@@ -7,7 +7,7 @@ function Topic3() {
         
         <div>
             <section>
-            <h2 className="topic6"></h2>
+            <h2 className="topic6">Works</h2>
             </section>
         </div>
 
