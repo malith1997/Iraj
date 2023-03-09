@@ -1,5 +1,5 @@
 import "../Styles/main.css";
-import coco from "../Img/cover12.png";
+import coco from "../Img/covernew.svg";
 import Irajj from "../Img/iraj.png";
 import Round from "../Img/round.png";
 
@@ -12,7 +12,7 @@ function Hero() {
         <div className='h-screen overflow-hidden relative'>
             <Image className="img1" src={coco} alt="coco" />
             <div className="imgBox">
-            <Image className="imgBo" src={Irajj} alt="iraj" />
+            {/* <Image className="imgBo" src={Irajj} alt="iraj" /> */}
             </div>
             
 

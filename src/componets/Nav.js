@@ -1,6 +1,9 @@
 import { useRef } from "react";
 import "../Styles/main.css";
 import { Link } from "react-router-dom";
+import { ButtonGroup,Divider,Stack,Image,Heading,Text,Button,Card, CardHeader, CardBody, CardFooter,Box,SimpleGrid } from '@chakra-ui/react';
+import menue from "../Img/menue.png";
+import cancel from "../Img/cancel.png";
 
 function Nav() {
     const navRef = useRef();
@@ -31,7 +34,7 @@ function Nav() {
                 
                 {/* USE FOR SMOLLER SCREEN CLOSE THE NAV */}
                 <button className="nav-btn nav-close-btn" onClick={showNav}> 
-                    <a>*</a>
+                    <a>x</a>
                 </button>
             </nav>
 
@@ -42,7 +45,7 @@ function Nav() {
 
             {/* OPEN THE NAV IN SMOLLER SCREEN */}
             <button className="nav-btn" onClick={showNav}>
-            <a>--</a>
+            <a><Image className="menue" src={menue} alt="post" /></a>
                 </button>
         </header>
 
