@@ -43,7 +43,7 @@ const ContactUs = () => {
         <input className='form2' type="email" name="user_email" placeholder='Email' />
         
         <textarea className='form3' name="message" placeholder='Message' />
-        <input className="BtnCard3" type="submit" value="Send" onClick={handleClick} />
+        <input className="BtnCard6" type="submit" value="Send" onClick={handleClick} />
         alert("This is an alert message!");
        
       </form>

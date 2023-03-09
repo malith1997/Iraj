@@ -182,7 +182,7 @@ h1{
 
 .topic1{
     color: #ffffff;
-    margin-top: 150px;
+    margin-top: 350px;
     margin-left: 250px;
     font-size: 100px;
 
@@ -200,7 +200,7 @@ h1{
     justify-items: center;
     text-align: center;
     color: #ffffff;
-    margin-top: 450px;
+    margin-top: 520px;
     margin-left: 750px;
     font-size: 40px;
 }
@@ -465,8 +465,13 @@ h1{
     height: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     align-items: center;
-    margin-left: 1250PX;
+    margin-left: 1258PX;
     padding: 10px;
+    display: center;
+    text-align: center;
+
+    
+        
     
 
    
@@ -476,6 +481,39 @@ h1{
     transform: scale(1.09);
     background: #ffffff;
   }
+
+
+  .BtnCard6 {
+    cursor: pointer;
+    background: #202020;
+    color: #ebe5e5;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    align-items: center;
+    padding: 10px;
+    display: center;
+    text-align: center;
+    display: block;
+    margin:  auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+    
+        
+    
+
+   
+  }
+.BtnCard6:hover {
+    color: #000000;
+    transform: scale(1.09);
+    background: #ffffff;
+  }
+
+
   body{
     background-color: #000000;
     
@@ -637,7 +675,8 @@ h1{
   }
 
   .formset{
-    margin-left: -2%;
+    display: block;
+    margin: 0 auto;
   }
 
   .footer {
@@ -741,6 +780,10 @@ h1{
     color: #ebe5e5;
     padding: 16px;
   }
+
+
+
+
   
 
  
@@ -823,7 +866,7 @@ h1{
     .topic1{
         justify-content: center;
         color: #ebe5e5;
-        margin-top: -290px;
+        margin-top: 50px;
         margin-left: 50px;
         font-size: 40px;
     }
@@ -1107,7 +1150,12 @@ h1{
       }
 
       .BtnCard5{
-        margin-left: 172px;
+        /* margin-left: 172px; */
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+        
       }
 
       
@@ -1247,6 +1295,54 @@ h1{
   
   
     }
+
+
+    .menue {
+      cursor: pointer;
+      width: 25%;
+      display: block;
+      margin: 0 auto;
+    }
+
+
+    .menue:hover {
+      color: #000000;
+      transform: scale(1.09);
+      background: #000000;
+    }
+
+
+    .BtnCard6 {
+      cursor: pointer;
+      background: #202020;
+      color: #ebe5e5;
+      border-radius: 5px;
+      width: 200px;
+      height: 50px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+      align-items: center;
+      padding: 10px;
+      display: center;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      margin-top: 10px;
+  
+      
+          
+      
+  
+     
+    }
+  .BtnCard6:hover {
+      color: #000000;
+      transform: scale(1.09);
+      background: #ffffff;
+    }
+
+
+    
   
     
 }
