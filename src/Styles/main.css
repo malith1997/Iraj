@@ -268,7 +268,7 @@ h1{
 
   text-align: center;
   color: hsl(0, 1%, 65%);
-  margin-top: 600px;
+  margin-top: 400px;
   margin-bottom: 50px;
   font-size: 40px;
  
@@ -1043,13 +1043,15 @@ h1{
       }
 
       .topic10{
-        margin-top: 100px;
+        margin-top: 0px;
         padding-left: 10%;
         padding-right: 10%;
       }
 
       .BtnCard2{
-        margin-left: 148px;
+        display: block;
+        margin-left: 120px;
+        text-align: center;
       }
 
       .BtnCard3{
