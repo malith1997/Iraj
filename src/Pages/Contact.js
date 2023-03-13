@@ -45,17 +45,17 @@ function Contact() {
             <Box className="box3" height='80px'>
 
             <Image className="img1" src={big1}  />
-            <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>
+            {/* <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> */}
             </Box>
             <Box className="box3"  height='80px'>
 
             <Image className="img1" src={big2}  />
-            <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>
+            {/* <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> */}
             </Box>
             <Box className="box3" height='80px'>
 
             <Image className="img1" src={big3}  />
-            <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>
+            {/* <p className="paragrhap6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> */}
             
             </Box>
             </SimpleGrid>

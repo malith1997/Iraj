@@ -23,7 +23,7 @@ function Cards() {
                     <Image className="img3" src={Img1} alt="img" />
                     <h2>Lorem ipsum</h2>
                     <br></br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
                 </div>
                 </div>
              </div>    
@@ -36,7 +36,7 @@ function Cards() {
                     <Image className="img3" src={Img2} alt="img" />
                     <h2>Lorem ipsum</h2>
                     <br></br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
                 </div>
                 </div>
              </div>    
@@ -48,7 +48,7 @@ function Cards() {
                     <Image className="img3" src={Img3} alt="img" />
                     <h2>Lorem ipsum</h2>
                     <br></br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
                 </div>
                 </div>
              </div>    
@@ -66,7 +66,7 @@ function Cards() {
                     <Image className="img3" src={Img4} alt="img" />
                     <h2>Lorem ipsum</h2>
                     <br></br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
                 </div>
                 </div>
              </div>    
@@ -78,7 +78,7 @@ function Cards() {
                     <Image className="img3" src={Img5} alt="img" />
                     <h2>Lorem ipsum</h2>
                     <br></br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
                 </div>
                 </div>
              </div>    
@@ -90,7 +90,7 @@ function Cards() {
                     <Image className="img3" src={Img6} alt="img" />
                     <h2>Lorem ipsum</h2>
                     <br></br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
                 </div>
                 </div>
              </div>    

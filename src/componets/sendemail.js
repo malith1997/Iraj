@@ -37,7 +37,7 @@ const ContactUs = () => {
 
     <section className='formset'>
       <form ref={form} onSubmit={sendEmail}>
-        
+     
         <input className='form1' type="text" name="user_name" placeholder='Name' /> 
         
         <input className='form2' type="email" name="user_email" placeholder='Email' />
