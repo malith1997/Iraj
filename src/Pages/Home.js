@@ -17,6 +17,7 @@ import Carousel from '../componets/Carousel';
 import Footer from '../componets/Footer';
 import Instagram from '../componets/instagram';
 import Insta2 from '../componets/Insta2';
+import Footerr from '../componets/Footerr';
 
 
 
@@ -37,8 +38,9 @@ function Home() {
       <Cards />
       <Topic3 />
       <Insta2 />
-      <Footer />
-      <Instagram />
+      {/* <Footer /> */}
+      {/* <Instagram /> */}
+      <Footerr />
      
       
       

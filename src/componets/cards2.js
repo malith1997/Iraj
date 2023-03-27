@@ -25,9 +25,9 @@ function Cards2() {
             <Box className="box1" height='80px'>
 
             <Image className="img1" src={rounded1}  />
-            <h2 className="topic9">Lorem ipsum</h2>
+            {/* <h2 className="topic9">Lorem ipsum</h2> */}
             <br></br>
-            <p className="paragrhap5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+            {/* <p className="paragrhap5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
 
             </Box>
 
@@ -35,9 +35,9 @@ function Cards2() {
 
             <Image className="img1" src={rounded2}  />
 
-            <h2 className="topic9">Lorem ipsum</h2>
+            {/* <h2 className="topic9">Lorem ipsum</h2> */}
             <br></br>
-            <p className="paragrhap5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+            {/* <p className="paragrhap5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
 
             </Box>
 
@@ -45,9 +45,9 @@ function Cards2() {
 
             <Image className="img1" src={rounded3}  />
 
-            <h2 className="topic9">Lorem ipsum</h2>
+            {/* <h2 className="topic9">Lorem ipsum</h2> */}
             <br></br>
-            <p className="paragrhap5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+            {/* <p className="paragrhap5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
 
             </Box>
 
@@ -55,9 +55,9 @@ function Cards2() {
 
             <Image className="img1" src={rounded4}  />
 
-            <h2 className="topic9">Lorem ipsum</h2>
+            {/* <h2 className="topic9">Lorem ipsum</h2> */}
             <br></br>
-            <p className="paragrhap5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p> 
+            {/* <p className="paragrhap5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Aenean diam dolor,</p>  */}
 
             </Box>
             </SimpleGrid>
@@ -66,7 +66,7 @@ function Cards2() {
 
 
 
-            <section>
+            {/* <section>
 
             <SimpleGrid className="grid2" minChildWidth='220px' spacing='40px'>
             <Box className="box2" height='80px'>
@@ -129,7 +129,7 @@ function Cards2() {
             
             </Box>
             </SimpleGrid>
-            </section>
+            </section> */}
 
             
             
