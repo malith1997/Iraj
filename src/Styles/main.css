@@ -688,20 +688,17 @@ h1{
   }
 
   .footer1 {
-    background-color: rgb(24, 24, 24);
-    color: white;
-    padding: 20px;
+   
     margin-top: 550px;
-    text-align: center;
+    
    
   }
 
   .footer2 {
-    background-color: rgb(24, 24, 24);
-    color: white;
-    padding: 20px;
+    
+
     margin-top: 500px;
-    text-align: center;
+   
   
   }
 
@@ -1054,6 +1051,8 @@ h1{
         text-align: center;
       }
 
+     
+
       .BtnCard3{
         margin-left: 120px;
       }
@@ -1177,21 +1176,19 @@ h1{
     }
   
     .footer1 {
-      background-color: rgb(24, 24, 24);
-      color: white;
-      padding: 0px;
+      
+     
       margin-top: 50px;
-      height: 1400px;
-      text-align: center;
+     
+     
     }
 
     .footer2 {
-      background-color: rgb(24, 24, 24);
-      color: white;
-      padding: 0px;
+      
+     
       margin-top: 300px;
-      height: 1400px;
-      text-align: center;
+     
+     
     }
   
     .columnx {
@@ -1342,6 +1339,11 @@ h1{
       transform: scale(1.09);
       background: #ffffff;
     }
+
+
+  
+  
+   
 
 
     

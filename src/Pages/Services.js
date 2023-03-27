@@ -1,8 +1,9 @@
 import React from 'react'
 import Cards2 from '../componets/cards2';
 import Nav from '../componets/Nav';
+import Footerr from '../componets/Footerr';
 import { ButtonGroup,Divider,Stack,Image,Heading,Text,Button,Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react';
-import Footer from '../componets/Footer';
+
 
 
 function Services() {
@@ -28,7 +29,7 @@ function Services() {
 
 
 
-          <Footer />   
+          <Footerr />  
      </React.Fragment>
 
      

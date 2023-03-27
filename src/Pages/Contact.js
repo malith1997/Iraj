@@ -18,6 +18,7 @@ import big3 from "../Img/big3.png";
 
 import ContactUs from '../componets/sendemail'
 import Footer from '../componets/Footer';
+import Footerr from '../componets/Footerr';
 
 
 function Contact() {
@@ -67,7 +68,7 @@ function Contact() {
 
 
         <section className='footer1'>
-        <Footer />
+        <Footerr />
         </section>
 
 

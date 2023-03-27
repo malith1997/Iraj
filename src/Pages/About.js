@@ -3,7 +3,7 @@ import AboutDis from '../componets/AboutDis';
 import Professional from '../componets/professional';
 import Nav from '../componets/Nav';
 import "../Styles/main.css";
-import Footer from '../componets/Footer';
+import Footerr from '../componets/Footerr';
 
 function About() {
   return (
@@ -15,7 +15,7 @@ function About() {
      
      
       <section className='footer2'>
-        <Footer />
+        <Footerr />
         </section>
     </React.Fragment>
   )
